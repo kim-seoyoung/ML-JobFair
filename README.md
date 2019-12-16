@@ -60,6 +60,6 @@
 7. 2019-12-15
 	- ResNet50+SGD: adma, SGD 모두 해보았지만 0.85 이상의 정확도 얻지 못함
 	
-8.2019-12-16
+8. 2019-12-16
 	- ResNet18+SGD: adma, SGD 모두 해보았지만 너무 train과 validation의 차이가 큼(과적합), ResNet18의 세부적인 구조는 그냥 output크기를 보고 적당히 맞춤.......
 	
