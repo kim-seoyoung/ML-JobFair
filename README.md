@@ -34,7 +34,7 @@
 	- augmentation (2)
 		- 9,10일의 모델들이 전반적으로 accuracy가 높고 validation accuracy가 높은 것이 augmentation을 하면서 유사한 data가 많아졌기 때문이라고 생각해 augmentation 개수를 줄임 
 
-5. 5019-12-11
+5. 2019-12-11
 	- VGG+SGD+dropout+aug3: 86.5 점
 		-  학습을 많이 시켜서 매우 높은 train accuracy를 얻었지만 validation accuracy와 차이 매우 과적합되었음을 알 수 있음
 		- 많은 epoch 수가 필요하진 않은 것 같음 
@@ -54,4 +54,12 @@
 		- Dense layer 크기 반으로 줄임
 		- fluctuation 심해짐
 
+6. 2019-12-13
+	- data_preprocessing: data에 분류가 잘 되지 않은 부분이 있어 train_vision.csv 수정함
 
+7. 2019-12-15
+	- ResNet50+SGD: adma, SGD 모두 해보았지만 0.85 이상의 정확도 얻지 못함
+	
+8.2019-12-16
+	- ResNet18+SGD: adma, SGD 모두 해보았지만 너무 train과 validation의 차이가 큼(과적합), ResNet18의 세부적인 구조는 그냥 output크기를 보고 적당히 맞춤.......
+	
